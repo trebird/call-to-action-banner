@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   position: relative;
   max-height: 500px;
@@ -34,6 +38,8 @@ html {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -44,7 +50,7 @@ p {
   font-size: 1.5rem;
 }
 
-.btn, .btn-big {
+.btn {
   display: inline-block;
   padding: .4em .75em .3em;
   font-size: 1.125rem;
@@ -54,6 +60,14 @@ p {
   background-color: #333;
 }
 
+.btn-big {
+  font-size: 1.5rem;
+}
+
 span {
-  font-family: "Roboto", sans-serif
+  font-family: Roboto, sans-serif;
+}
+
+.btn:hover {
+  background-color: #000;
 }
